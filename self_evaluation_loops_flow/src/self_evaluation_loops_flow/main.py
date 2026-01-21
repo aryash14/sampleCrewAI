@@ -3,10 +3,10 @@ from typing import Optional
 from crewai.flow.flow import Flow, listen, router, start
 from pydantic import BaseModel
 
-from self_evaluation_loop_flow.crews.shakespeare_crew.shakespeare_crew import (
+from self_evaluation_loops_flow.crews.shakespeare_crew.shakespeare_crew import (
     ShakespeareanXPostCrew,
 )
-from self_evaluation_loop_flow.crews.x_post_review_crew.x_post_review_crew import (
+from self_evaluation_loops_flow.crews.x_post_review_crew.x_post_review_crew import (
     XPostReviewCrew,
 )
 
